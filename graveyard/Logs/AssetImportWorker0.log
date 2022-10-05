@@ -1,0 +1,318 @@
+Unity Editor version:    2021.3.10f1 (1c7d0df0160b)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53623
+Successfully changed project path to: /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard
+/Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 109.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path /Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56499
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002766 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 155.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (693ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006609 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.449 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1450ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1169ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (133.9 KB). Loaded Objects now: 3846.
+Memory consumption went from 230.3 MB to 230.2 MB.
+Total: 3.717313 ms (FindLiveObjects: 0.320526 ms CreateObjectMapping: 0.206082 ms MarkObjects: 3.076625 ms  DeleteObjects: 0.113229 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 150697.206538 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/Skyboxes/Textures/MoonShine/MoonShine_left.tif
+  artifactKey: Guid(752b01b0aec6184468996505d2ab8a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/Skyboxes/Textures/MoonShine/MoonShine_left.tif using Guid(752b01b0aec6184468996505d2ab8a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22e40f95d7fda8a2acd1ac2a7097358') in 1.919944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000903 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/Materials/MoonShine Skybox.mat
+  artifactKey: Guid(5ba172cd3918d7c44aa6d04446119a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/Materials/MoonShine Skybox.mat using Guid(5ba172cd3918d7c44aa6d04446119a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac134fcf6891541ec3d2f17ea0175ba') in 1.752591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/Textures/Grass_D.tga
+  artifactKey: Guid(1b3c9d8cdbd389842aa1fbc9590fb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/Textures/Grass_D.tga using Guid(1b3c9d8cdbd389842aa1fbc9590fb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6efaf4926840ec9c23d273dd441683') in 0.149064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.928093 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/Materials/sky.mat
+  artifactKey: Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/Materials/sky.mat using Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f461fd1622cf986f901d85256acd013f') in 0.026597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.275785 seconds.
+  path: Assets/cemetery halloween set/Materials/cemetery_halloween_atlas.mat
+  artifactKey: Guid(e0bcf9f60dd304fee8d9902d12ee195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Materials/cemetery_halloween_atlas.mat using Guid(e0bcf9f60dd304fee8d9902d12ee195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a32ac6a18f727340999eec2cb5310b3') in 0.093145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.671064 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/DemoScene/FREE_Cartoon_Halloween_Pack/Lightmap-0_comp_dir.png
+  artifactKey: Guid(45c56db9fcef8bf45a04e0267b09ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/DemoScene/FREE_Cartoon_Halloween_Pack/Lightmap-0_comp_dir.png using Guid(45c56db9fcef8bf45a04e0267b09ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20adbf58ed8710f8f3ebad72137edaaa') in 1.527598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/DemoScene/FREE_Cartoon_Halloween_Pack/Lightmap-0_comp_light.exr
+  artifactKey: Guid(eef4b2515b7422e499385ac36e3cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/DemoScene/FREE_Cartoon_Halloween_Pack/Lightmap-0_comp_light.exr using Guid(eef4b2515b7422e499385ac36e3cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409b0935fdbdee9aac77ae2ccc3b58d7') in 0.194859 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002264 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1504ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1170ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (440ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3895.
+Memory consumption went from 261.3 MB to 261.2 MB.
+Total: 4.628549 ms (FindLiveObjects: 0.357558 ms CreateObjectMapping: 0.384235 ms MarkObjects: 3.766625 ms  DeleteObjects: 0.119047 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130.598704 seconds.
+  path: Assets/sky.mat
+  artifactKey: Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky.mat using Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426ab8dd0df9d7ffa90578ffab626b03') in 0.102125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.420889 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Cauldron_01.fbx
+  artifactKey: Guid(bfd8050d9a207f646a71e823c296d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Cauldron_01.fbx using Guid(bfd8050d9a207f646a71e823c296d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f7ced91d99f76187a744b7fa71c503') in 0.397688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Pumpkin_01.fbx
+  artifactKey: Guid(64c8fa4b48f26b04bacdc4774a4dfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Pumpkin_01.fbx using Guid(64c8fa4b48f26b04bacdc4774a4dfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d441bbfe635a0f37dec7384b57e4403') in 0.031983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Fence.fbx
+  artifactKey: Guid(a7a58b64dea011e468f54bbaaf84ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Fence.fbx using Guid(a7a58b64dea011e468f54bbaaf84ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4343f55f053b7a11f531cb5fc7c98a26') in 0.038949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Pumpkin_02.fbx
+  artifactKey: Guid(1c11594aafb85e3428638396d6d90b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Pumpkin_02.fbx using Guid(1c11594aafb85e3428638396d6d90b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f996a1babf19fa0b4643fb4ae0829aac') in 0.027746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Lamp_03.fbx
+  artifactKey: Guid(4bc5ff3961e887c49a7a0b1d82655002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Lamp_03.fbx using Guid(4bc5ff3961e887c49a7a0b1d82655002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebe72ae3a54090937cba6dabcf1f1c4') in 0.033671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Tombstone_01.fbx
+  artifactKey: Guid(9fb945c7f96dd104692c2818ff771960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Tombstone_01.fbx using Guid(9fb945c7f96dd104692c2818ff771960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62405a6a9b240eacaab6bd2052c17ad1') in 0.028402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Tombstone_02.fbx
+  artifactKey: Guid(382ced19f20c16d4382fdedbd194fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Tombstone_02.fbx using Guid(382ced19f20c16d4382fdedbd194fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafe1372b1ae9d6b2b080ef37de0d3d7') in 0.033106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Lamp_01.fbx
+  artifactKey: Guid(a838677d75b40ed4d92e38a95d2fc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Lamp_01.fbx using Guid(a838677d75b40ed4d92e38a95d2fc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1c2674bb3b0fc62245c45cf4344bda') in 0.026516 seconds 
