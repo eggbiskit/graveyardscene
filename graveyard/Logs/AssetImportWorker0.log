@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53623
+50814
 Successfully changed project path to: /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard
 /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,13 +54,13 @@ Successfully changed project path to: /Users/graceho/UCSC/classes/CMPM121/gravey
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 109.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 113.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path /Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+HP 24uh preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Metal devices available: 1
 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
@@ -69,75 +69,75 @@ Initialize mono
 Mono path[0] = '/Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56499
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56321
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002766 seconds.
+Registered in 0.000766 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 155.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 116.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
+- Completed reload, in  0.972 seconds
 Domain Reload Profiling:
-	ReloadAssembly (970ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (693ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (769ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
+			SetupTypeCache (149ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (419ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (519ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (155ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (327ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006609 seconds.
+Registered in 0.003511 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.449 seconds
+- Completed reload, in  1.508 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1450ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (1509ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1169ms)
-			LoadAssemblies (115ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1138ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (381ms)
+			SetupTypeCache (394ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (530ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (488ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (377ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Users/graceho/Unity/2021.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (133.9 KB). Loaded Objects now: 3846.
-Memory consumption went from 230.3 MB to 230.2 MB.
-Total: 3.717313 ms (FindLiveObjects: 0.320526 ms CreateObjectMapping: 0.206082 ms MarkObjects: 3.076625 ms  DeleteObjects: 0.113229 ms)
+Unloading 26 unused Assets / (139.2 KB). Loaded Objects now: 3857.
+Memory consumption went from 237.2 MB to 237.1 MB.
+Total: 3.819714 ms (FindLiveObjects: 0.441409 ms CreateObjectMapping: 0.221065 ms MarkObjects: 3.000936 ms  DeleteObjects: 0.155244 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,91 +166,1021 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 150697.206538 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/Skyboxes/Textures/MoonShine/MoonShine_left.tif
-  artifactKey: Guid(752b01b0aec6184468996505d2ab8a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/Skyboxes/Textures/MoonShine/MoonShine_left.tif using Guid(752b01b0aec6184468996505d2ab8a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22e40f95d7fda8a2acd1ac2a7097358') in 1.919944 seconds 
+  Time since last request: 3860.553394 seconds.
+  path: Assets/cemetery halloween set/Demo/Materials/cemetery_halloween_atlas.mat
+  artifactKey: Guid(b7216991a8c6f3e4296da80304cda7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/Materials/cemetery_halloween_atlas.mat using Guid(b7216991a8c6f3e4296da80304cda7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e67baf586ed783355a206ecb8ba94c') in 1.152239 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000903 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/Materials/MoonShine Skybox.mat
-  artifactKey: Guid(5ba172cd3918d7c44aa6d04446119a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/Materials/MoonShine Skybox.mat using Guid(5ba172cd3918d7c44aa6d04446119a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac134fcf6891541ec3d2f17ea0175ba') in 1.752591 seconds 
+  Time since last request: 0.000097 seconds.
+  path: Assets/cemetery halloween set/Demo/Materials/floor_12.mat
+  artifactKey: Guid(7048cc2c08e54164eae472539717fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/Materials/floor_12.mat using Guid(7048cc2c08e54164eae472539717fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20dd3c6eb9c963b81ddfdd0d3485df9') in 0.032786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/cemetery halloween set/Demo/sample_scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(459d909d29a9b164fb92646c32f2eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/sample_scene/Lightmap-0_comp_light.exr using Guid(459d909d29a9b164fb92646c32f2eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebc5c38cd97ebdd591aeb61870d0bf7') in 1.258567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/cemetery halloween set/Demo/Materials/Tree_BG.mat
+  artifactKey: Guid(50cadd17c7810644dac9d61844d8d8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/Materials/Tree_BG.mat using Guid(50cadd17c7810644dac9d61844d8d8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db731d1a98ac6bcf980c052b2acefafa') in 0.060084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001264 seconds.
+  path: Assets/cemetery halloween set/Demo/sample_scene/Lightmap-0_comp_dir.exr
+  artifactKey: Guid(e743b078910ad6142878cbe2c35a140a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/sample_scene/Lightmap-0_comp_dir.exr using Guid(e743b078910ad6142878cbe2c35a140a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c00dca44159057b882f50e5ae5fe47e') in 0.024003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.860412 seconds.
+  path: Assets/cemetery halloween set/Demo/sample_scene/Materials
+  artifactKey: Guid(0b29582ed895744f0b07cb00e77a47b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/sample_scene/Materials using Guid(0b29582ed895744f0b07cb00e77a47b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92991a39c71f34617d36c8a23063e76e') in 0.001048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.127633 seconds.
+  path: Assets/cemetery halloween set/Demo/sample_scene/Materials/SkyboxProbe-0.mat
+  artifactKey: Guid(460e03bb877404310a9398bdf97f39d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/sample_scene/Materials/SkyboxProbe-0.mat using Guid(460e03bb877404310a9398bdf97f39d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d19050880a3f4dae3a224d29e4ec22f') in 0.094892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.333803 seconds.
+  path: Assets/cemetery halloween set/mobile_models/fence_pillar_01.fbx
+  artifactKey: Guid(8e9ec22f736431c4488e2b46461d3a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/fence_pillar_01.fbx using Guid(8e9ec22f736431c4488e2b46461d3a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7b517c2a6fbf0cc57378015565d7c0') in 0.166923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_gravestone_01.fbx
+  artifactKey: Guid(46d5e9438ba35164b9256f46a8c9d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_gravestone_01.fbx using Guid(46d5e9438ba35164b9256f46a8c9d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba42724fccdafb49956eda3e6a0cebe3') in 0.066502 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000079 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/Textures/Grass_D.tga
-  artifactKey: Guid(1b3c9d8cdbd389842aa1fbc9590fb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/Textures/Grass_D.tga using Guid(1b3c9d8cdbd389842aa1fbc9590fb8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6efaf4926840ec9c23d273dd441683') in 0.149064 seconds 
+  path: Assets/cemetery halloween set/mobile_models/mobile_dead_tree_03.FBX
+  artifactKey: Guid(84a9fc44caa3a8a4caae120e9ab9f7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_dead_tree_03.FBX using Guid(84a9fc44caa3a8a4caae120e9ab9f7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4876c615cb6e759bc2db1c945a7d024') in 0.150158 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 99.928093 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/Materials/sky.mat
-  artifactKey: Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/Materials/sky.mat using Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f461fd1622cf986f901d85256acd013f') in 0.026597 seconds 
+  Time since last request: 0.000164 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_gravestone_03.fbx
+  artifactKey: Guid(468ea0b11c46b024ba9150a745b6dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_gravestone_03.fbx using Guid(468ea0b11c46b024ba9150a745b6dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613cc6671d7e0491d18c8484fb3812a4') in 0.080742 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.275785 seconds.
-  path: Assets/cemetery halloween set/Materials/cemetery_halloween_atlas.mat
-  artifactKey: Guid(e0bcf9f60dd304fee8d9902d12ee195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cemetery halloween set/Materials/cemetery_halloween_atlas.mat using Guid(e0bcf9f60dd304fee8d9902d12ee195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a32ac6a18f727340999eec2cb5310b3') in 0.093145 seconds 
+  Time since last request: 0.000081 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_bush_03.FBX
+  artifactKey: Guid(cfa8049bdfd0f1149939838334cec508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_bush_03.FBX using Guid(cfa8049bdfd0f1149939838334cec508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd146d105dab93088a732150ca8c109a3') in 0.063228 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.671064 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/DemoScene/FREE_Cartoon_Halloween_Pack/Lightmap-0_comp_dir.png
-  artifactKey: Guid(45c56db9fcef8bf45a04e0267b09ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/DemoScene/FREE_Cartoon_Halloween_Pack/Lightmap-0_comp_dir.png using Guid(45c56db9fcef8bf45a04e0267b09ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20adbf58ed8710f8f3ebad72137edaaa') in 1.527598 seconds 
+  Time since last request: 0.000064 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_hang_pumpkin_05.FBX
+  artifactKey: Guid(71f54f1fca959734c9ea7e5f1091f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_hang_pumpkin_05.FBX using Guid(71f54f1fca959734c9ea7e5f1091f61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cc995a9e989e04856446ee01ca1b5c') in 0.112040 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/DemoScene/FREE_Cartoon_Halloween_Pack/Lightmap-0_comp_light.exr
-  artifactKey: Guid(eef4b2515b7422e499385ac36e3cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/DemoScene/FREE_Cartoon_Halloween_Pack/Lightmap-0_comp_light.exr using Guid(eef4b2515b7422e499385ac36e3cf0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409b0935fdbdee9aac77ae2ccc3b58d7') in 0.194859 seconds 
+  Time since last request: 0.000080 seconds.
+  path: Assets/cemetery halloween set/mobile_models/fence_pillar_03.fbx
+  artifactKey: Guid(6e214390a1632ae43b41b0fd57095573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/fence_pillar_03.fbx using Guid(6e214390a1632ae43b41b0fd57095573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f70f8b141bc79713d9ca292211f92f1') in 0.063413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_hang_pumpkin_03.FBX
+  artifactKey: Guid(641ead1bb36a6324f86c8621ce626bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_hang_pumpkin_03.FBX using Guid(641ead1bb36a6324f86c8621ce626bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b157500ac187ed1456d275659500caff') in 0.071929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_hang_pumpkin_04.FBX
+  artifactKey: Guid(007b384cf53b0bf4bb75f06b6f912c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_hang_pumpkin_04.FBX using Guid(007b384cf53b0bf4bb75f06b6f912c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0784524321dfd76fea800603355bca55') in 0.055987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_gravestone_04.fbx
+  artifactKey: Guid(9892d943f0205ff45896a8183e0d1da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_gravestone_04.fbx using Guid(9892d943f0205ff45896a8183e0d1da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814a7357348cd3e523f5be5afd0b04d8') in 0.050019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/cemetery halloween set/mobile_models/fence_tile_01.fbx
+  artifactKey: Guid(f96a520ba274cd14ca8dd7355ae63440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/fence_tile_01.fbx using Guid(f96a520ba274cd14ca8dd7355ae63440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4173a717b20f3dd519464d16827ecc5') in 0.054755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_gravestone_07.fbx
+  artifactKey: Guid(64e7a94e095e38748a7e17b50765f053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_gravestone_07.fbx using Guid(64e7a94e095e38748a7e17b50765f053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085a3790bdfda75061f6b437e6842f9a') in 0.045250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_dead_tree_05.FBX
+  artifactKey: Guid(bea86ec69dd0ddf4b9f4cda3ab321957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_dead_tree_05.FBX using Guid(bea86ec69dd0ddf4b9f4cda3ab321957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51001f06f7b07b834ae13335740be654') in 0.081777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_bush_01.FBX
+  artifactKey: Guid(61a63333d3e7ba34fa01aef237d3d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_bush_01.FBX using Guid(61a63333d3e7ba34fa01aef237d3d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ea2d965a26adcc09d39b998c0b65c0') in 0.059254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/cemetery halloween set/mobile_models/fence_tile_04.fbx
+  artifactKey: Guid(7d6ed17dc1e569c42bf7db199caf01ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/fence_tile_04.fbx using Guid(7d6ed17dc1e569c42bf7db199caf01ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc37fb8db1207ff9fffa0c0c4c25a33a') in 0.045829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_dead_tree_06.FBX
+  artifactKey: Guid(195c387e6a52b354d8b98c89c66bc831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_dead_tree_06.FBX using Guid(195c387e6a52b354d8b98c89c66bc831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e9d96e626fd6fc4ef96042b1d0625b') in 0.065015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_gravestone_09.fbx
+  artifactKey: Guid(690021454a47bee41959e17cf0212b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_gravestone_09.fbx using Guid(690021454a47bee41959e17cf0212b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0713a313df148a8b28441fb00391f2f6') in 0.056622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_gravestone_06.fbx
+  artifactKey: Guid(38e7bdc8d303f2d4ab95a2c46603efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_gravestone_06.fbx using Guid(38e7bdc8d303f2d4ab95a2c46603efdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa24415ff94ffb07c7dd86dc61e3f545') in 0.054291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_gravestone_05.fbx
+  artifactKey: Guid(88f734ff1a044304a9ba057c7703ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_gravestone_05.fbx using Guid(88f734ff1a044304a9ba057c7703ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3c4382b7be4cd3451b70b6021266ad') in 0.075377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.502427 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_lava_dead_tree_01.FBX
+  artifactKey: Guid(20cf38e0d10560f4593dd6f769adf006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_lava_dead_tree_01.FBX using Guid(20cf38e0d10560f4593dd6f769adf006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3080bf395601446d7e2bb45952d901a') in 0.065878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_pumpkin_06.FBX
+  artifactKey: Guid(0aed48a7df4c5f84b8df99e5cc0607fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_pumpkin_06.FBX using Guid(0aed48a7df4c5f84b8df99e5cc0607fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d930fe212d9692e94197a8292e541f') in 0.077299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_pumpkin_01.FBX
+  artifactKey: Guid(efc7b3978d2aef348962d2218fc8da52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_pumpkin_01.FBX using Guid(efc7b3978d2aef348962d2218fc8da52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7965a7dc026ae6e1d261b630bb66a7b3') in 0.098037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_lava_dead_tree_03.FBX
+  artifactKey: Guid(8476f98d2a1def44ea9084c5f4608736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_lava_dead_tree_03.FBX using Guid(8476f98d2a1def44ea9084c5f4608736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84df7b159283379c8f35c76899294a2') in 0.107037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_pumpkin_03.FBX
+  artifactKey: Guid(baf5b5499a9e52347a415f91dc24800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_pumpkin_03.FBX using Guid(baf5b5499a9e52347a415f91dc24800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b205fce2a94c7f7d51f1ef0cb291898') in 0.117681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_lava_dead_tree_05.FBX
+  artifactKey: Guid(206cac0edeba8064ba456fb9c2175038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_lava_dead_tree_05.FBX using Guid(206cac0edeba8064ba456fb9c2175038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbc2347259bfd12ec0808359646736f') in 0.090428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.270822 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_pumpkin_07.FBX
+  artifactKey: Guid(2ac3d42854d8fdb45a6ae3caada2662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_pumpkin_07.FBX using Guid(2ac3d42854d8fdb45a6ae3caada2662c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa90e657f13826dc5d24f9b5570fe240') in 0.052289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_rock_02.fbx
+  artifactKey: Guid(02baa7d21c557c741a055362aa261913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_rock_02.fbx using Guid(02baa7d21c557c741a055362aa261913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c6a7dd1792483a595d96437e4957ae') in 0.050839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_pumpkin_12.FBX
+  artifactKey: Guid(1051ddecbd1403548a9c3062461e5b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_pumpkin_12.FBX using Guid(1051ddecbd1403548a9c3062461e5b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07abd5e4f0a6dc7a78bb53ae052455a2') in 0.051468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_rock_04.fbx
+  artifactKey: Guid(2bbf55c64d6f66943ac04f23fe15cabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_rock_04.fbx using Guid(2bbf55c64d6f66943ac04f23fe15cabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276d7b364898e55147ab7bfe2b7be7e1') in 0.060639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_rock_12.fbx
+  artifactKey: Guid(ee22847cdd6aa3947abe48bf952cbd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_rock_12.fbx using Guid(ee22847cdd6aa3947abe48bf952cbd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7845c7c80b4ecbc9b1af658a7b0b9d2b') in 0.066825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_rock_08.fbx
+  artifactKey: Guid(7dc9d321c3853e14c997fc124045f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_rock_08.fbx using Guid(7dc9d321c3853e14c997fc124045f89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13782e6428b7333eebc753fa00cb633') in 0.067596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_skull_01.fbx
+  artifactKey: Guid(d20b0e24eb9590b47b98f536378629d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_skull_01.fbx using Guid(d20b0e24eb9590b47b98f536378629d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9665f300649865229a6b5bfcf3634afc') in 0.067219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_rock_01.fbx
+  artifactKey: Guid(72e397dd9ef44654ea00f2826b418c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_rock_01.fbx using Guid(72e397dd9ef44654ea00f2826b418c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d85df8403d80ed4ba7afc522b181649') in 0.054688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_pumpkin_09.FBX
+  artifactKey: Guid(b98818e61f60a8a4db4d2f850f330474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_pumpkin_09.FBX using Guid(b98818e61f60a8a4db4d2f850f330474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf9162c0d0d71e0fb040726f03554af') in 0.054197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_rock_07.fbx
+  artifactKey: Guid(63d74ff6da6cf9d4d9b0c2a3b35b3563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_rock_07.fbx using Guid(63d74ff6da6cf9d4d9b0c2a3b35b3563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e35b8b796d7f3c698d43b676c169561') in 0.050197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_rock_03.fbx
+  artifactKey: Guid(983371617a551214d88f735e4c40bcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_rock_03.fbx using Guid(983371617a551214d88f735e4c40bcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1023be62cc39d5ef15c8b8e6f28701') in 0.054193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_rock_10.fbx
+  artifactKey: Guid(d16a3ed41b50e0145bc136aeeaf558c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_rock_10.fbx using Guid(d16a3ed41b50e0145bc136aeeaf558c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b480c2fa41cbf32bd61af8ff21f9a88') in 0.061547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.047533 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_skull_05.fbx
+  artifactKey: Guid(49eb1c92bb20c2b4eb57c3640ae03e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_skull_05.fbx using Guid(49eb1c92bb20c2b4eb57c3640ae03e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103e7e15b0768669348c47c399507b35') in 0.035307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_spokebone_03.fbx
+  artifactKey: Guid(3c4c39aa62cf59941b89bf1c41b6a224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_spokebone_03.fbx using Guid(3c4c39aa62cf59941b89bf1c41b6a224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60621fdb02ef956fd92065bba7af8bf') in 0.078584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_spokebone_02.fbx
+  artifactKey: Guid(5215610877a8d18418c49a231b722f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_spokebone_02.fbx using Guid(5215610877a8d18418c49a231b722f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be96060ecccc28c7672cd98eb7d3099') in 0.079868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_skull_07.fbx
+  artifactKey: Guid(881617c3bb80d4248af1a8496de10213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_skull_07.fbx using Guid(881617c3bb80d4248af1a8496de10213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dabfefdbc7093080a7637ab357eb9c') in 0.077846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_tomb.fbx
+  artifactKey: Guid(5d493aa214a7dc045b4313f080a0eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_tomb.fbx using Guid(5d493aa214a7dc045b4313f080a0eeb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd8348ccdaca01fcf6d4aaa6a75e313') in 0.060413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_skull_08.fbx
+  artifactKey: Guid(90855fca51f57254796d3d3639f9da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_skull_08.fbx using Guid(90855fca51f57254796d3d3639f9da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d72df03e7e6810e20ce1bfbdeca738') in 0.050373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.136799 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_zombie_hand_03.fbx
+  artifactKey: Guid(97549f214d92d48468d4f0ade5d60abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_zombie_hand_03.fbx using Guid(97549f214d92d48468d4f0ade5d60abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f5b3b44e319835889c654195ead3ae') in 0.037843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/cemetery halloween set/mobile_models/spiderweb_02.fbx
+  artifactKey: Guid(3fe7f06cea0b64f40a77f2183a254818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/spiderweb_02.fbx using Guid(3fe7f06cea0b64f40a77f2183a254818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aec4219f9381849949af98e82a9879f') in 0.046386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/cemetery halloween set/mobile_models/Tree01_BG.fbx
+  artifactKey: Guid(479f6285e495c35478ec9578924be7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/Tree01_BG.fbx using Guid(479f6285e495c35478ec9578924be7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b8fd3509b60a7abc5d6c2250eeb5a3') in 0.065727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/cemetery halloween set/mobile_models/spiderweb_01.fbx
+  artifactKey: Guid(6f62e5c45e80dc64d9819d5aeed09497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/spiderweb_01.fbx using Guid(6f62e5c45e80dc64d9819d5aeed09497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a0af1f7544152dfc86614e55a028ca') in 0.059692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/cemetery halloween set/mobile_models/spiderweb_03.fbx
+  artifactKey: Guid(d377c4968136353438de100aeeb00032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/spiderweb_03.fbx using Guid(d377c4968136353438de100aeeb00032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fc29bb9668ff08779e57e55f4cfbb0') in 0.078564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/cemetery halloween set/mobile_models/mobile_zombie_hand_09.fbx
+  artifactKey: Guid(96cad661baf8e0943b1dfa70f8e42849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/mobile_zombie_hand_09.fbx using Guid(96cad661baf8e0943b1dfa70f8e42849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7152ea2101dbc1f0c946fdd6b61038c3') in 0.053462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.114885 seconds.
+  path: Assets/cemetery halloween set/mobile_models/Tree02_BG.fbx
+  artifactKey: Guid(54294e5a20062f0409574f793d0a4afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/Tree02_BG.fbx using Guid(54294e5a20062f0409574f793d0a4afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3162f2232d44f72d4f887a81937828ea') in 0.021924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/cemetery halloween set/mobile_models/Tree04_BG.fbx
+  artifactKey: Guid(cb99235c8bf6a974981506ec98dbc64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/mobile_models/Tree04_BG.fbx using Guid(cb99235c8bf6a974981506ec98dbc64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e7d525e2ce0183b3d5ee835a9bac7d') in 0.045863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 205.593367 seconds.
+  path: Assets/cemetery halloween set/textures/floor_12.png
+  artifactKey: Guid(575aaa66d3252ab46ad4d7008e2f7f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/textures/floor_12.png using Guid(575aaa66d3252ab46ad4d7008e2f7f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29e134181d92caeb1619c76dff01b69') in 1.468166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.121753 seconds.
+  path: Assets/cemetery halloween set/textures/demo_scene_floor.png
+  artifactKey: Guid(1e8aad637ad10024eab9a69ed1d06fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/textures/demo_scene_floor.png using Guid(1e8aad637ad10024eab9a69ed1d06fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad2b8a8ead4722f478a5a425b98b040') in 0.037721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.368513 seconds.
+  path: Assets/cemetery halloween set/textures/cemetery_halloween_atlas.tga
+  artifactKey: Guid(533f20d1d25eb984888f7a6157753055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/textures/cemetery_halloween_atlas.tga using Guid(533f20d1d25eb984888f7a6157753055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01f80c543102b45a5f4146fb98ece7d') in 1.546952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.508145 seconds.
+  path: Assets/cemetery halloween set/models/bush_01.FBX
+  artifactKey: Guid(a478d6d92ef5900488f4cc185bbfc98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/bush_01.FBX using Guid(a478d6d92ef5900488f4cc185bbfc98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e8d8c9c530dd6fae1c2a411187a633') in 0.038136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/cemetery halloween set/models/hang_pumpkin_03.FBX
+  artifactKey: Guid(60b896eb552db7a49bd58c9c7e6a98a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/hang_pumpkin_03.FBX using Guid(60b896eb552db7a49bd58c9c7e6a98a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e18118e88aae0a3bb703ae953dcb262') in 0.139262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/cemetery halloween set/models/gravestone_05.fbx
+  artifactKey: Guid(9e20b7b9e08ca864eb1a6ecae2969cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/gravestone_05.fbx using Guid(9e20b7b9e08ca864eb1a6ecae2969cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727ad09cac07b2a90d6540bba122f5a6') in 0.062430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/cemetery halloween set/models/gravestone_06.fbx
+  artifactKey: Guid(dc042185714af6c458ef19e5b5b74517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/gravestone_06.fbx using Guid(dc042185714af6c458ef19e5b5b74517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c01894f4a8f721f3eb15c788b61c22b') in 0.048557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/cemetery halloween set/models/fence_pillar_01.fbx
+  artifactKey: Guid(fda92cc783efd474a9010817ac54944f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/fence_pillar_01.fbx using Guid(fda92cc783efd474a9010817ac54944f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39f45df0050ac55e44e694cd5944fa') in 0.074300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/cemetery halloween set/models/fence_pillar_03.fbx
+  artifactKey: Guid(d5ad956dd1189ee49b97f315600dd069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/fence_pillar_03.fbx using Guid(d5ad956dd1189ee49b97f315600dd069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2829db8b3ac890c671154fd10903a00a') in 0.064845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/cemetery halloween set/models/hang_pumpkin_04.FBX
+  artifactKey: Guid(2d61b8ffb6a1d6246916f79102d0117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/hang_pumpkin_04.FBX using Guid(2d61b8ffb6a1d6246916f79102d0117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52218a9da0f34658c000633f442bd5f3') in 0.079285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/cemetery halloween set/models/lava_dead_tree_02.FBX
+  artifactKey: Guid(ac26e1e84029fc2409e9ce970fd00800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/lava_dead_tree_02.FBX using Guid(ac26e1e84029fc2409e9ce970fd00800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891a689ab4926bf93c594098aa0f0d62') in 0.091997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/cemetery halloween set/models/gravestone_09.fbx
+  artifactKey: Guid(d7369344e347ec740a57571e8653a1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/gravestone_09.fbx using Guid(d7369344e347ec740a57571e8653a1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0dedf39caf1f85e436dae07245ce05a') in 0.055188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/cemetery halloween set/models/dead_tree_05.FBX
+  artifactKey: Guid(e0884eef239d74a4a9328c55745c142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/dead_tree_05.FBX using Guid(e0884eef239d74a4a9328c55745c142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f829c5eac1959335adf940bcd82711fa') in 0.085754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/cemetery halloween set/models/hang_pumpkin_05.FBX
+  artifactKey: Guid(7aaf8bbf8fb4b4643b1f1f5567ad6b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/hang_pumpkin_05.FBX using Guid(7aaf8bbf8fb4b4643b1f1f5567ad6b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad57a34e6ddb6c7447c1a05f6b9505d') in 0.058201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/cemetery halloween set/models/dead_tree_01.FBX
+  artifactKey: Guid(44964e5ac51dbf54596a4b4ebc4f6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/dead_tree_01.FBX using Guid(44964e5ac51dbf54596a4b4ebc4f6b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0838d8662bf957c6def39f044f9760fa') in 0.096100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/cemetery halloween set/models/gravestone_02.fbx
+  artifactKey: Guid(8b52540195a274341bdfcb7742fbaf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/gravestone_02.fbx using Guid(8b52540195a274341bdfcb7742fbaf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fdb72120025853e0730fdd5d2793b3') in 0.069265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/cemetery halloween set/models/fence_pillar_02.fbx
+  artifactKey: Guid(7ad40de0b65ac1e49bc72259ad6343e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/fence_pillar_02.fbx using Guid(7ad40de0b65ac1e49bc72259ad6343e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bb5fb2f863b9fc96f252f3e5c07a16') in 0.063988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/cemetery halloween set/models/hang_pumpkin_02.FBX
+  artifactKey: Guid(7bf738d0024710e4bb01a1032ecffb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/hang_pumpkin_02.FBX using Guid(7bf738d0024710e4bb01a1032ecffb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39a28b42f6dc8c25e526533c8793d93') in 0.112839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/cemetery halloween set/models/gate_01.FBX
+  artifactKey: Guid(8f7da3fe0c3e07a499817697103ceeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/gate_01.FBX using Guid(8f7da3fe0c3e07a499817697103ceeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255e7b68db91aa60472ee53bca8fa044') in 0.091036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/cemetery halloween set/models/gate_02.fbx
+  artifactKey: Guid(de39154115bfb6e4381d77121ee32d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/gate_02.fbx using Guid(de39154115bfb6e4381d77121ee32d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68eeaf931f1082fdba54afb4efddddc8') in 0.055916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/cemetery halloween set/models/hang_pumpkin_01.FBX
+  artifactKey: Guid(6912e36da7db98940a5eed09d2a288df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/hang_pumpkin_01.FBX using Guid(6912e36da7db98940a5eed09d2a288df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5841c0d3b2eeb233b11aba3df602fbeb') in 0.081494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.268286 seconds.
+  path: Assets/cemetery halloween set/models/Materials/cemetery_halloween_atlas.mat
+  artifactKey: Guid(e1101390617792041987253d29eeed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/Materials/cemetery_halloween_atlas.mat using Guid(e1101390617792041987253d29eeed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f224c26a59d1520a6064bd89f5acc865') in 0.028504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.274062 seconds.
+  path: Assets/cemetery halloween set/Prefab/bush_01.prefab
+  artifactKey: Guid(d083143e5ce002340b5a96b02dd521bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/bush_01.prefab using Guid(d083143e5ce002340b5a96b02dd521bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ca896cfe16f8d29720a69738a219fa') in 0.113879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/cemetery halloween set/Prefab/dead_tree_02.prefab
+  artifactKey: Guid(096024c93fe017b42bb3832df1701ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/dead_tree_02.prefab using Guid(096024c93fe017b42bb3832df1701ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f44a68c432cebd9f791ab53bca661e') in 0.058766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_04.prefab
+  artifactKey: Guid(462caf5e9b6e21d47a0fd752618407ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_04.prefab using Guid(462caf5e9b6e21d47a0fd752618407ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb96034b1976f4553b39ce203bd19cfa') in 0.058663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_02.prefab
+  artifactKey: Guid(c359d8121ce290d4fa23fd147d65a3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_02.prefab using Guid(c359d8121ce290d4fa23fd147d65a3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9014d23172af6cf9c78ed3ded68b1b') in 0.043768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020787 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_tile_03.prefab
+  artifactKey: Guid(1a935fa61d7ee07459af217cce0bb217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_tile_03.prefab using Guid(1a935fa61d7ee07459af217cce0bb217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70dcdf571b07759c3a8893da6d5871d') in 0.058732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_03.prefab
+  artifactKey: Guid(2788b8c246efe2649911841920cfd809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_03.prefab using Guid(2788b8c246efe2649911841920cfd809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3953fb126f1376274d2f316deb64f341') in 0.054610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_tile_05.prefab
+  artifactKey: Guid(af50065cf67981e4aa640f559cdba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_tile_05.prefab using Guid(af50065cf67981e4aa640f559cdba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05db0f6e95a832b08d1783aeb6667cec') in 0.050542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/cemetery halloween set/Prefab/hang_pumpkin_02.prefab
+  artifactKey: Guid(79dcb31d20593b34494c43b5f46881ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/hang_pumpkin_02.prefab using Guid(79dcb31d20593b34494c43b5f46881ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7264275cd19ef1d4e81c250864651a58') in 0.048758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_08.prefab
+  artifactKey: Guid(6bb9527a5c388ab4db52794b383d9c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_08.prefab using Guid(6bb9527a5c388ab4db52794b383d9c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6f8c22641030422745543bc6de5b6a') in 0.056194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/cemetery halloween set/Prefab/bush_03.prefab
+  artifactKey: Guid(37898355f3308664e8a88f210fe2ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/bush_03.prefab using Guid(37898355f3308664e8a88f210fe2ca29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9f8abd43bef6198486a5310f97d823') in 0.039805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_03.prefab
+  artifactKey: Guid(aed5aa50d2da06a4d989ad965417c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_03.prefab using Guid(aed5aa50d2da06a4d989ad965417c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6339fb84d6689cad75368bf20e32f37') in 0.043909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/cemetery halloween set/Prefab/lava_dead_tree_01.prefab
+  artifactKey: Guid(cd558c52cdfae0e4c8d0c527eacae507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/lava_dead_tree_01.prefab using Guid(cd558c52cdfae0e4c8d0c527eacae507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec569108cc924b37783a54463c76f60') in 0.048053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_10.prefab
+  artifactKey: Guid(d3bd997e128c44941b87aabf13f6866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_10.prefab using Guid(d3bd997e128c44941b87aabf13f6866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344c64326867620e55f18b5b348a8305') in 0.049410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_09.prefab
+  artifactKey: Guid(00474b18ee4c2b645aef1d1232934c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_09.prefab using Guid(00474b18ee4c2b645aef1d1232934c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f7a9ecef032ecfb18971a613080d55') in 0.054807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_01.prefab
+  artifactKey: Guid(62c53ccdf1ee5404bb1356b626706342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_01.prefab using Guid(62c53ccdf1ee5404bb1356b626706342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5650e7c4250d93fbc235bf9e40dc13a5') in 0.051441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/cemetery halloween set/Prefab/gate_02.prefab
+  artifactKey: Guid(38475bb0fdc87a540b4d31ca85de30b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gate_02.prefab using Guid(38475bb0fdc87a540b4d31ca85de30b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abb8959b1889a97530c37855a3c2b36') in 0.050393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_01.prefab
+  artifactKey: Guid(4a7bdb1844d70e74cb49786452e74f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_01.prefab using Guid(4a7bdb1844d70e74cb49786452e74f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff503a9e7109d66d4e2f8cfe0f6bc59') in 0.048478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/cemetery halloween set/Prefab/hang_pumpkin_03.prefab
+  artifactKey: Guid(bbfa58e5f965fc04a9c67a0b394d41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/hang_pumpkin_03.prefab using Guid(bbfa58e5f965fc04a9c67a0b394d41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3476a923cb8c35ac8aef4407acb87d') in 0.050639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.110726 seconds.
+  path: Assets/cemetery halloween set/Prefab/lava_dead_tree_03.prefab
+  artifactKey: Guid(9e883b6e7e36db048b286ea954b59dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/lava_dead_tree_03.prefab using Guid(9e883b6e7e36db048b286ea954b59dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d768678d2e73da8ffa022473054447f') in 0.029232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_01.prefab
+  artifactKey: Guid(5698f742ca2502047b86ffde9337a99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_01.prefab using Guid(5698f742ca2502047b86ffde9337a99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8eb24709d41afd6ee3259a3f1160ae7') in 0.053799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_02.prefab
+  artifactKey: Guid(a13886ca046b2a84897aa1abe21a85d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_02.prefab using Guid(a13886ca046b2a84897aa1abe21a85d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504d330b65ca2842bb28d0538336e64e') in 0.043415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/cemetery halloween set/Prefab/rock_08.prefab
+  artifactKey: Guid(81f6b33207cc7bb49ab7cf81866224a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/rock_08.prefab using Guid(81f6b33207cc7bb49ab7cf81866224a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e466e693edfb8705c499e1e30d91b4') in 0.053375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/cemetery halloween set/Prefab/rock_07.prefab
+  artifactKey: Guid(96a955c63b2e1954796ff8d3cfb2cf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/rock_07.prefab using Guid(96a955c63b2e1954796ff8d3cfb2cf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e409bba6129be7b0578db52074c1da') in 0.047256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_11.prefab
+  artifactKey: Guid(098fc4f9c342d1b4d9c9d51d4c0acdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_11.prefab using Guid(098fc4f9c342d1b4d9c9d51d4c0acdf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985f837864d322654582d9a77489267b') in 0.049276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_04.prefab
+  artifactKey: Guid(784ccbabfee88b643ac3e8b6a8da2b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_04.prefab using Guid(784ccbabfee88b643ac3e8b6a8da2b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab443932e9a09677048e257c07f4a362') in 0.039168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/cemetery halloween set/Prefab/rock_03.prefab
+  artifactKey: Guid(e12f27c8f3e68d24fac80901f55a8e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/rock_03.prefab using Guid(e12f27c8f3e68d24fac80901f55a8e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b78562aae3e5821a7efda245f01d87') in 0.067056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/cemetery halloween set/Prefab/rock_09.prefab
+  artifactKey: Guid(bca0a51a49d51e34e907a989aa481987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/rock_09.prefab using Guid(bca0a51a49d51e34e907a989aa481987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcf410c11e78285c49d18b347b5b345') in 0.046764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/cemetery halloween set/Prefab/rock_05.prefab
+  artifactKey: Guid(83ecf306b2d49354b9f7c6541ffe32dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/rock_05.prefab using Guid(83ecf306b2d49354b9f7c6541ffe32dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2566ee1d4fa3e3262194b0700e8297af') in 0.054755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/cemetery halloween set/Prefab/pumpkin_09.prefab
+  artifactKey: Guid(11f511437cd4ee34d9d3cf2a7c83cff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/pumpkin_09.prefab using Guid(11f511437cd4ee34d9d3cf2a7c83cff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dc4dc602f5d70f15df59e2f4279bf3') in 0.048623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/cemetery halloween set/Prefab/sample_scene.prefab
+  artifactKey: Guid(9128fac7ecb9c4b4085275bbf85879ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/sample_scene.prefab using Guid(9128fac7ecb9c4b4085275bbf85879ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe4ef0b07b3d08f622bc88055ba710c') in 0.193541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/cemetery halloween set/Prefab/spokebone_04.prefab
+  artifactKey: Guid(4b21396666c82724fb269f119a55ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/spokebone_04.prefab using Guid(4b21396666c82724fb269f119a55ae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a36e8989f40527e58e292434d6d69d0') in 0.060870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/cemetery halloween set/Prefab/spiderweb_04.prefab
+  artifactKey: Guid(878b36ce4a9646748a4a1d4a8978584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/spiderweb_04.prefab using Guid(878b36ce4a9646748a4a1d4a8978584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9fcd5fa76ff0a8b253872186399ff3') in 0.044299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/cemetery halloween set/Prefab/spokebone_02.prefab
+  artifactKey: Guid(3b8a8d4f185bf754992507a3347879da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/spokebone_02.prefab using Guid(3b8a8d4f185bf754992507a3347879da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd753031da4e3b2bb7c40d10da9cc6f') in 0.066662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/cemetery halloween set/Prefab/skull_05.prefab
+  artifactKey: Guid(2d0d469e5377a0640b3219f1315ba0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/skull_05.prefab using Guid(2d0d469e5377a0640b3219f1315ba0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788c9f46892f4c271406e7179e7efb79') in 0.058187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/cemetery halloween set/Prefab/rock_12.prefab
+  artifactKey: Guid(38e7e715d109d3a4199e6143a825039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/rock_12.prefab using Guid(38e7e715d109d3a4199e6143a825039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f893ce21021480413ab54b3d4f3c3da') in 0.044992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/cemetery halloween set/Prefab/skull_03.prefab
+  artifactKey: Guid(43d344359843f7b4fa1dd5731984d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/skull_03.prefab using Guid(43d344359843f7b4fa1dd5731984d3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858c8a4201f1f4e9e4584867f91e433b') in 0.055794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/cemetery halloween set/Prefab/lava_dead_tree_05.prefab
+  artifactKey: Guid(a9845ec07c122574bb304ab34975e1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/lava_dead_tree_05.prefab using Guid(a9845ec07c122574bb304ab34975e1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04aadf0070d7e2bcdb103d2b6c182e9') in 0.056881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/cemetery halloween set/Prefab/zombie_hand_04.prefab
+  artifactKey: Guid(0e9b6d3b0a23e874a8a20c5184502f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/zombie_hand_04.prefab using Guid(0e9b6d3b0a23e874a8a20c5184502f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1404bae2002b130fb9965a815e2aae7f') in 0.051567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/cemetery halloween set/Prefab/zombie_hand_07.prefab
+  artifactKey: Guid(0c654bfecb1e6c4468c8934406b1c1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/zombie_hand_07.prefab using Guid(0c654bfecb1e6c4468c8934406b1c1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a344bcac6ea1864a9073535e2049d0a0') in 0.050692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/cemetery halloween set/Prefab/Tree02_BG.prefab
+  artifactKey: Guid(f9ee4e5a59a6cd446b93f6b6fc9160e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/Tree02_BG.prefab using Guid(f9ee4e5a59a6cd446b93f6b6fc9160e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893deb719ba35b6198583c45a76c93aa') in 0.020992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/cemetery halloween set/Prefab/Tree01_BG.prefab
+  artifactKey: Guid(1cdf807532223d14c9e48b55f822643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/Tree01_BG.prefab using Guid(1cdf807532223d14c9e48b55f822643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fa2eea1631613244fe7df98710852c') in 0.027634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/cemetery halloween set/Prefab/tomb.prefab
+  artifactKey: Guid(92ec4d4fe3ae0064382a761004fea5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/tomb.prefab using Guid(92ec4d4fe3ae0064382a761004fea5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b74b1566f4a1c7d7703aaa3a453636') in 0.063273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/cemetery halloween set/Prefab/zombie_hand_03.prefab
+  artifactKey: Guid(dd1a843803920304d8816d640609bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/zombie_hand_03.prefab using Guid(dd1a843803920304d8816d640609bc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4c567ca78c2bf9e7a6add39a1db1a7') in 0.073247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/cemetery halloween set/Prefab/skull_04.prefab
+  artifactKey: Guid(2d21542896dab5f4893370c5987dd7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/skull_04.prefab using Guid(2d21542896dab5f4893370c5987dd7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fd02d7bfca0b652fbe83db3e08c9f0') in 0.053839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/cemetery halloween set/Prefab/spiderweb_02.prefab
+  artifactKey: Guid(3e660194188b9ac448f45d41ab7bbf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/spiderweb_02.prefab using Guid(3e660194188b9ac448f45d41ab7bbf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeef2829526d1dd6389539317208ff5') in 0.046660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/cemetery halloween set/Prefab/skull_09.prefab
+  artifactKey: Guid(3f641459b382ae84897545775b78fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/skull_09.prefab using Guid(3f641459b382ae84897545775b78fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0505e7d3e703b6751491cf9c2733825b') in 0.061466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/cemetery halloween set/Prefab/spokebone_03.prefab
+  artifactKey: Guid(7c0cac86f64b4ee47af54e4af1fd878a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/spokebone_03.prefab using Guid(7c0cac86f64b4ee47af54e4af1fd878a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffef0d649ac3f72e7e6a5f540659e09') in 0.057433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.165014 seconds.
+  path: Assets/cemetery halloween set/Prefab/zombie_hand_08.prefab
+  artifactKey: Guid(5a1431cb1a2a1454986e38f431f012e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/zombie_hand_08.prefab using Guid(5a1431cb1a2a1454986e38f431f012e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c271c672140324542c1db755511c93a') in 0.032082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.561501 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_04.prefab
+  artifactKey: Guid(b17c8758517d6ef43882eb1f0880a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_04.prefab using Guid(b17c8758517d6ef43882eb1f0880a3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d50e52b21bf833d16f0d41a37d2acd6') in 0.031334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_06.prefab
+  artifactKey: Guid(503c5c360c6265f48bdfa88c8c90534e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_06.prefab using Guid(503c5c360c6265f48bdfa88c8c90534e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9debff79a1c50d548b921179d969c961') in 0.050390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/spiderweb_04.prefab
+  artifactKey: Guid(25429208885bd5e43bf2f83524bc5422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/spiderweb_04.prefab using Guid(25429208885bd5e43bf2f83524bc5422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1be01a791854704d9df2669dfa2205') in 0.041309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_07.prefab
+  artifactKey: Guid(39f4bfe2822687240b47fec90e78667c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_zombie_hand_07.prefab using Guid(39f4bfe2822687240b47fec90e78667c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d72e2021e968156b0ee336bf732ef3') in 0.038313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/Tree02_BG.prefab
+  artifactKey: Guid(b7be850ac0ab0a3408608f79b345dfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/Tree02_BG.prefab using Guid(b7be850ac0ab0a3408608f79b345dfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63d6add4023a54449ef9aefd39f5e51') in 0.025310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/spiderweb_03.prefab
+  artifactKey: Guid(f77bb190022c3274f88d928a1cde2532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/spiderweb_03.prefab using Guid(f77bb190022c3274f88d928a1cde2532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a42d78d062212fb0409c7ad58d563ac') in 0.056454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/spiderweb_02.prefab
+  artifactKey: Guid(d9b05105513ab9d4190901db9fa71d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/spiderweb_02.prefab using Guid(d9b05105513ab9d4190901db9fa71d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f514b43dec7f414298e6facedced4322') in 0.071958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.710865 seconds.
+  path: Assets/cemetery halloween set/textures/floor_11.mat
+  artifactKey: Guid(71ea78aa56fd40544840810c9e5b0590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/textures/floor_11.mat using Guid(71ea78aa56fd40544840810c9e5b0590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c785947903bf1c373215d880e6b01f99') in 0.026508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/cemetery halloween set/textures/floor_14.png
+  artifactKey: Guid(ab33277ab8ae7534f9b003810f244f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/textures/floor_14.png using Guid(ab33277ab8ae7534f9b003810f244f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c295eff1d30362c106c7df6558495f45') in 0.013512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/cemetery halloween set/textures/floor_12.mat
+  artifactKey: Guid(4558ef7bc514bdd4ea536e66c2cbdc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/textures/floor_12.mat using Guid(4558ef7bc514bdd4ea536e66c2cbdc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d67c79e292d7c8444f75d50edd664d') in 0.033815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/cemetery halloween set/textures/floor_14.mat
+  artifactKey: Guid(e539cccd52c19aa46ac9e3dd40ae7370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/textures/floor_14.mat using Guid(e539cccd52c19aa46ac9e3dd40ae7370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b2470f367952d68cdd0a2643799939') in 0.029764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/cemetery halloween set/textures/floor_13.png
+  artifactKey: Guid(8f2f2716c0826a8409cc60b460b6e1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/textures/floor_13.png using Guid(8f2f2716c0826a8409cc60b460b6e1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcad252e52f318449436715eaa009f8') in 0.021088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/cemetery halloween set/textures/Tree_BG.tga
+  artifactKey: Guid(c38f3381ec0c2fe46b5e5c3656df0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/textures/Tree_BG.tga using Guid(c38f3381ec0c2fe46b5e5c3656df0353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34050d1956b942087b098a8bac7177e2') in 0.015238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.813002 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_pillar_01.prefab
+  artifactKey: Guid(04ad0ea2c477f3642983f0577b89a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_pillar_01.prefab using Guid(04ad0ea2c477f3642983f0577b89a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754f00631d9dd9eb3c58c30bed397f29') in 0.028094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_03.prefab
+  artifactKey: Guid(cba33deba0888a246a88c500ec7d715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_03.prefab using Guid(cba33deba0888a246a88c500ec7d715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642ff044652674d0fd8f20f2d99fcb17') in 0.067480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_bush_01.prefab
+  artifactKey: Guid(68cb22bbbf0ded641b55e220c7f92882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_bush_01.prefab using Guid(68cb22bbbf0ded641b55e220c7f92882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e788108d63fc5f166c6ba7d6be2619') in 0.046868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_01.prefab
+  artifactKey: Guid(a5bf6d625adc50048825d29a1aa4fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_01.prefab using Guid(a5bf6d625adc50048825d29a1aa4fa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f851963bd3380322485e33a06dc5d0') in 0.058692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_bush_02.prefab
+  artifactKey: Guid(a79d62f8aeb96404d940c6dd804f190c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_bush_02.prefab using Guid(a79d62f8aeb96404d940c6dd804f190c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed01ad98b579642824627d926e351732') in 0.059938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_05.prefab
+  artifactKey: Guid(7a15f40c24c0d3c418c7a40fcfe69512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_05.prefab using Guid(7a15f40c24c0d3c418c7a40fcfe69512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa36342cc47e99c7415bc7fcb2624b68') in 0.062788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_pillar_03.prefab
+  artifactKey: Guid(84c97e6bbccab5e42acdd4c55910148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_pillar_03.prefab using Guid(84c97e6bbccab5e42acdd4c55910148b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa50e67d869010455535edc077564609') in 0.042470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_tile_01.prefab
+  artifactKey: Guid(06aeb7e39519e2e4c92d3c1ed2d4a011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_tile_01.prefab using Guid(06aeb7e39519e2e4c92d3c1ed2d4a011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4415ebee9d49d46624431c9398dc3434') in 0.050770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/fence_tile_03.prefab
+  artifactKey: Guid(b7efced809eecb647824f360edb01784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/fence_tile_03.prefab using Guid(b7efced809eecb647824f360edb01784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685357908400d9fc7eb36dd2c5d670aa') in 0.042813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_01.prefab
+  artifactKey: Guid(d9b9d7f65e06eea4b9fb8e39bebc098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_01.prefab using Guid(d9b9d7f65e06eea4b9fb8e39bebc098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f4c71f09d659358873d6401957707b') in 0.043114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_02.prefab
+  artifactKey: Guid(841bec98178bd664f93ab096859d2d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_02.prefab using Guid(841bec98178bd664f93ab096859d2d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c0a5c59282a28c524da6c2ae1c7d19') in 0.038621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_02.prefab
+  artifactKey: Guid(8ed0dac8bc1ff2a42817e12be50c6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_02.prefab using Guid(8ed0dac8bc1ff2a42817e12be50c6939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9db42c5d92bc5052ce84ea54d09f0b') in 0.035890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/gate_01.prefab
+  artifactKey: Guid(91d8c8bf5150b734990a9c8c39f3ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/gate_01.prefab using Guid(91d8c8bf5150b734990a9c8c39f3ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adefd6feeff9dc82d2068b361c4219a') in 0.049200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_05.prefab
+  artifactKey: Guid(b40ae86e85791564882257a22c79b4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_hang_pumpkin_05.prefab using Guid(b40ae86e85791564882257a22c79b4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fced9eaf7d104d2e6700274a747c5936') in 0.026189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_09.prefab
+  artifactKey: Guid(0e2d286a71be2fd4188c6fd4491c245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_09.prefab using Guid(0e2d286a71be2fd4188c6fd4491c245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159e38dffa33c3d7bd8f53f2b6ac374c') in 0.026273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_02.prefab
+  artifactKey: Guid(7f76e4513eff39d4fb3031a1beace14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_lava_dead_tree_02.prefab using Guid(7f76e4513eff39d4fb3031a1beace14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a29bcb307304d022bd73345db0ced7') in 0.025540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_04.prefab
+  artifactKey: Guid(62e329b5256f3c640978abaeb8caf972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_04.prefab using Guid(62e329b5256f3c640978abaeb8caf972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0403a18a5d663941c6cb0be44c359646') in 0.027328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_07.prefab
+  artifactKey: Guid(2832f6ea6d115e640a7b83f2b97eb0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_gravestone_07.prefab using Guid(2832f6ea6d115e640a7b83f2b97eb0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9639ec9ab6955c37be84f9d82c43d254') in 0.025951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_01.prefab
+  artifactKey: Guid(82b2054d2bd318c4e8c7b06e163cba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab_mobile/mobile_dead_tree_01.prefab using Guid(82b2054d2bd318c4e8c7b06e163cba40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9718acb88df3092a3d8511675fc91d4') in 0.026789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 149.477094 seconds.
+  path: Assets/FREE_Cartoon_Halloween_Pack/Materials
+  artifactKey: Guid(fa2c4b26b2f2f47488c867964cb9a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE_Cartoon_Halloween_Pack/Materials using Guid(fa2c4b26b2f2f47488c867964cb9a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd9d4668ebcc3962ff4cb6a801165f8') in 0.001131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.892039 seconds.
+  path: Assets/cemetery halloween set/Demo/sample_scene.FBX
+  artifactKey: Guid(ba37eba8728fa144e8ebab6a89327cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/sample_scene.FBX using Guid(ba37eba8728fa144e8ebab6a89327cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb945d79bfb3e565de4397a52558304') in 4.122831 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002264 seconds.
+Registered in 0.005302 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.503 seconds
+- Completed reload, in  1.255 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1504ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1170ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (991ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (440ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (478ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (434ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (334ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (72.9 KB). Loaded Objects now: 3895.
-Memory consumption went from 261.3 MB to 261.2 MB.
-Total: 4.628549 ms (FindLiveObjects: 0.357558 ms CreateObjectMapping: 0.384235 ms MarkObjects: 3.766625 ms  DeleteObjects: 0.119047 ms)
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (73.3 KB). Loaded Objects now: 3914.
+Memory consumption went from 278.1 MB to 278.0 MB.
+Total: 3.865004 ms (FindLiveObjects: 0.331383 ms CreateObjectMapping: 0.214134 ms MarkObjects: 3.205053 ms  DeleteObjects: 0.113096 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -264,55 +1194,694 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 130.598704 seconds.
-  path: Assets/sky.mat
-  artifactKey: Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sky.mat using Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426ab8dd0df9d7ffa90578ffab626b03') in 0.102125 seconds 
+  Time since last request: 150.525104 seconds.
+  path: Assets/living birds
+  artifactKey: Guid(3477a23bc1d3a4c5983eed6746abcc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds using Guid(3477a23bc1d3a4c5983eed6746abcc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aff9caff63e43ae9b551543a1bcfec9') in 0.008181 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.420889 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Cauldron_01.fbx
-  artifactKey: Guid(bfd8050d9a207f646a71e823c296d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Cauldron_01.fbx using Guid(bfd8050d9a207f646a71e823c296d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f7ced91d99f76187a744b7fa71c503') in 0.397688 seconds 
+  Time since last request: 1.865358 seconds.
+  path: Assets/living birds/models
+  artifactKey: Guid(e82bacf8f580341bda75c0030e3330b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/models using Guid(e82bacf8f580341bda75c0030e3330b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9090f32f6d7006b94cb802f65d3c2296') in 0.000933 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Pumpkin_01.fbx
-  artifactKey: Guid(64c8fa4b48f26b04bacdc4774a4dfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Pumpkin_01.fbx using Guid(64c8fa4b48f26b04bacdc4774a4dfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d441bbfe635a0f37dec7384b57e4403') in 0.031983 seconds 
+  Time since last request: 0.069073 seconds.
+  path: Assets/living birds/models/crow.FBX
+  artifactKey: Guid(0646ceebc81f52a4e8a676e94ab46092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/models/crow.FBX using Guid(0646ceebc81f52a4e8a676e94ab46092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f429c526f8ee1488cb83ea23e10be609') in 0.326172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.980204 seconds.
+  path: Assets/living birds/prefabs
+  artifactKey: Guid(1e663050c32484be3aebbfb99a5f4594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/prefabs using Guid(1e663050c32484be3aebbfb99a5f4594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a0a70ecc6055b4c5501c47dbf58d30') in 0.001789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.397175 seconds.
+  path: Assets/living birds/prefabs/_livingBirdsController.prefab
+  artifactKey: Guid(1ca5316dd08051f42b31052d31beefed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/prefabs/_livingBirdsController.prefab using Guid(1ca5316dd08051f42b31052d31beefed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abed6fc6810f6b6e4ec9e78d6b4d7b41') in 0.007286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/living birds/prefabs/lc_perchTarget.prefab
+  artifactKey: Guid(b36b248dac73de241981c4b3ed591677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/prefabs/lc_perchTarget.prefab using Guid(b36b248dac73de241981c4b3ed591677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accc9eb5449eec8a8e75a14c2da1bc77') in 0.006069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.737416 seconds.
+  path: Assets/living birds/animations/bird@die.FBX
+  artifactKey: Guid(3eb26f964a8a1f442b4ebaad1c690121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@die.FBX using Guid(3eb26f964a8a1f442b4ebaad1c690121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737c6d3cf738041df6ea1abea10ba990') in 0.028363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/living birds/animations/bird@landing.FBX
+  artifactKey: Guid(91a0ec93e9077c54fa3a5931b1d22f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@landing.FBX using Guid(91a0ec93e9077c54fa3a5931b1d22f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2b9a92c38a2cfb9a220b8a478f1168') in 0.069108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/living birds/animations/bird@watch02.FBX
+  artifactKey: Guid(2eeda2bfa864a3b4ea31d02ad1d7d8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@watch02.FBX using Guid(2eeda2bfa864a3b4ea31d02ad1d7d8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20eb732656af8330af4acdafd79802bd') in 0.065344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/living birds/animations/bird@ruffle.FBX
+  artifactKey: Guid(62a99fa6a6de34a43bcad78c98a2166d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@ruffle.FBX using Guid(62a99fa6a6de34a43bcad78c98a2166d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a0d50429c1c45619489a950ab6d429') in 0.082659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/living birds/animations/bird@hopForward.FBX
+  artifactKey: Guid(09d34c73ee372d247b9b1ba6e0b91665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@hopForward.FBX using Guid(09d34c73ee372d247b9b1ba6e0b91665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4934f0d22dca48468f1439d8b077df36') in 0.077050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/living birds/animations/bird@worried.FBX
+  artifactKey: Guid(cfade936808e440439bff42525f9f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@worried.FBX using Guid(cfade936808e440439bff42525f9f2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547353b582ee1833f9549ebf1e2e35b8') in 0.081820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/living birds/animations/bird@watch01.FBX
+  artifactKey: Guid(fcd9e2f0fe594944fa820d71162634f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@watch01.FBX using Guid(fcd9e2f0fe594944fa820d71162634f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5158ddf9c62922258483b8d847d28ba4') in 0.073964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/living birds/animations/bird@hopLeft.FBX
+  artifactKey: Guid(62f44b8db6c967743b7107b7e2f4c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@hopLeft.FBX using Guid(62f44b8db6c967743b7107b7e2f4c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dc55c48806d4184f7d517cf2902904') in 0.098104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/living birds/animations/bird@flyStraight.FBX
+  artifactKey: Guid(f2dcbf14324d47a499783221451475c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/animations/bird@flyStraight.FBX using Guid(f2dcbf14324d47a499783221451475c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10bd773016fa74a2c18a15a01f5d3db') in 0.070561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.300757 seconds.
+  path: Assets/living birds/demo/demoGround.mat
+  artifactKey: Guid(653a6ad203d22454e87575f5ed337942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/demo/demoGround.mat using Guid(653a6ad203d22454e87575f5ed337942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762f826b8fe1eea9f80e034c4db785aa') in 0.027267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.599101 seconds.
+  path: Assets/living birds/demo/livingBirdsDemoScript.cs
+  artifactKey: Guid(f299546ffcfa2b148af3b1da2fa20a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/demo/livingBirdsDemoScript.cs using Guid(f299546ffcfa2b148af3b1da2fa20a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132f1c4b3f794adcff3c443c2fef068e') in 0.341511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.370625 seconds.
+  path: Assets/living birds/demo/DemoSettings.lighting
+  artifactKey: Guid(0179f1b2c97054bcc828e05d0bbd98f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/demo/DemoSettings.lighting using Guid(0179f1b2c97054bcc828e05d0bbd98f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '131c83a1a4ab999010a3b1d3a5aab15e') in 0.073290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.835326 seconds.
+  path: Assets/living birds/demo/Demo.unity
+  artifactKey: Guid(ff190308e93925649a6f32070e1b34da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/demo/Demo.unity using Guid(ff190308e93925649a6f32070e1b34da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c560e6d6ed15fa0cb7710e709c1ed5ab') in 0.002619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.567676 seconds.
+  path: Assets/living birds/Materials-Textures/crowDiffuse.png
+  artifactKey: Guid(8e5481a3ce647014c8df18fc9532d71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/Materials-Textures/crowDiffuse.png using Guid(8e5481a3ce647014c8df18fc9532d71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da7abf8e6d78ecba8d9c1cc5355f67a') in 0.021593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/living birds/Materials-Textures/crowMaterialHQ.mat
+  artifactKey: Guid(167c8145cdced1d43ba5318a1a0c0738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/Materials-Textures/crowMaterialHQ.mat using Guid(167c8145cdced1d43ba5318a1a0c0738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b6e1186501574e315ac85ab2bf5539') in 0.240214 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000073 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Fence.fbx
-  artifactKey: Guid(a7a58b64dea011e468f54bbaaf84ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Fence.fbx using Guid(a7a58b64dea011e468f54bbaaf84ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4343f55f053b7a11f531cb5fc7c98a26') in 0.038949 seconds 
+  path: Assets/living birds/Materials-Textures/feather.tif
+  artifactKey: Guid(c7cfb4e1631c6184c85cd7f4ef71287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/Materials-Textures/feather.tif using Guid(c7cfb4e1631c6184c85cd7f4ef71287c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5a29a1048cb749664dc28fe1fc9e13') in 1.206974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.161650 seconds.
+  path: Assets/living birds/documents/living birds manual.pdf
+  artifactKey: Guid(f68b05311d2f0174a9c5245288adb790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/documents/living birds manual.pdf using Guid(f68b05311d2f0174a9c5245288adb790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf356022982e2e2c2544ef157939584c') in 0.120641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.432806 seconds.
+  path: Assets/living birds/resources/lb_crow.prefab
+  artifactKey: Guid(3a5320db60c4f694f9724f4273599524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/resources/lb_crow.prefab using Guid(3a5320db60c4f694f9724f4273599524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697b4901d4c530f3dc9f2724877e4838') in 0.283113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.332276 seconds.
+  path: Assets/living birds/sounds/crow1.wav
+  artifactKey: Guid(e2622b95524aab94b9a0448a1a4c6fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/sounds/crow1.wav using Guid(e2622b95524aab94b9a0448a1a4c6fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349068c68e894a958fae6ff80bfa532a') in 1.574522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.656768 seconds.
+  path: Assets/Scenes/graveyard.unity
+  artifactKey: Guid(857d9100cb3e24bef83792539d7f25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/graveyard.unity using Guid(857d9100cb3e24bef83792539d7f25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30509394207dbc4c6c462d5147397401') in 0.001236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 210.974250 seconds.
+  path: Assets/living birds/resources/lb_crowHQ.prefab
+  artifactKey: Guid(459aeb780b3c43748b5a2bb13e1809c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/living birds/resources/lb_crowHQ.prefab using Guid(459aeb780b3c43748b5a2bb13e1809c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc67a8da8686d5b3a519871349ac4f3') in 0.071330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5439.916741 seconds.
+  path: Assets/cemetery halloween set
+  artifactKey: Guid(458fdee75b848474ebc856b9207f3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set using Guid(458fdee75b848474ebc856b9207f3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72b1e96df3f9aa9e7d2734805b143ac') in 0.001020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.532485 seconds.
+  path: Assets/cemetery halloween set/Demo/sample_scene.FBX
+  artifactKey: Guid(ba37eba8728fa144e8ebab6a89327cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/sample_scene.FBX using Guid(ba37eba8728fa144e8ebab6a89327cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e16c44b527c6ec91f1248704b0e4d4') in 3.956112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/cemetery halloween set/models/pumpkin_05.FBX
+  artifactKey: Guid(81bd1c361541fe74bba12aacc913298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_05.FBX using Guid(81bd1c361541fe74bba12aacc913298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e986e7fc1c99d846889757b6701cb8d') in 0.074414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/cemetery halloween set/models/pumpkin_09.FBX
+  artifactKey: Guid(8bf3aed581518da48ab2ad57b02904ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_09.FBX using Guid(8bf3aed581518da48ab2ad57b02904ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81b9933c2923f5eeab651835ca4498f') in 0.044068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/cemetery halloween set/models/lava_dead_tree_05.FBX
+  artifactKey: Guid(b791933449d545e4f9fe4ef8a91da6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/lava_dead_tree_05.FBX using Guid(b791933449d545e4f9fe4ef8a91da6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc6911ad88a6ffc124dec6632b96cfe') in 0.084436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/cemetery halloween set/models/pumpkin_06.FBX
+  artifactKey: Guid(ee8ed93185871834b92361654fdd8c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_06.FBX using Guid(ee8ed93185871834b92361654fdd8c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bafa3af671bb15ca0a0f4f50f82d87') in 0.066965 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000069 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Pumpkin_02.fbx
-  artifactKey: Guid(1c11594aafb85e3428638396d6d90b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Pumpkin_02.fbx using Guid(1c11594aafb85e3428638396d6d90b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f996a1babf19fa0b4643fb4ae0829aac') in 0.027746 seconds 
+  path: Assets/cemetery halloween set/models/pumpkin_07.FBX
+  artifactKey: Guid(9a1ff450f10a30d42bbd560ed6446c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_07.FBX using Guid(9a1ff450f10a30d42bbd560ed6446c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaf62a4b5fcf1cc9f6d49167bfd84d8') in 0.081599 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Lamp_03.fbx
-  artifactKey: Guid(4bc5ff3961e887c49a7a0b1d82655002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Lamp_03.fbx using Guid(4bc5ff3961e887c49a7a0b1d82655002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebe72ae3a54090937cba6dabcf1f1c4') in 0.033671 seconds 
+  Time since last request: 17.001515 seconds.
+  path: Assets/cemetery halloween set/models
+  artifactKey: Guid(2a92bcfe90c09784fbf5d441fee6b277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models using Guid(2a92bcfe90c09784fbf5d441fee6b277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49b0bad6da85c435d61b514eed61e64') in 0.001207 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Tombstone_01.fbx
-  artifactKey: Guid(9fb945c7f96dd104692c2818ff771960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Tombstone_01.fbx using Guid(9fb945c7f96dd104692c2818ff771960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62405a6a9b240eacaab6bd2052c17ad1') in 0.028402 seconds 
+  Time since last request: 11.600140 seconds.
+  path: Assets/cemetery halloween set/models/pumpkin_11.FBX
+  artifactKey: Guid(ca4c8c4a680b51640a9d4ea0977e9abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_11.FBX using Guid(ca4c8c4a680b51640a9d4ea0977e9abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77448fe14507bef7e91f6a2373efd2e') in 0.051364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/cemetery halloween set/models/rock_14.fbx
+  artifactKey: Guid(8fa5d86950599c14283ea80e4dbb6cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/rock_14.fbx using Guid(8fa5d86950599c14283ea80e4dbb6cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c02894ddb5991e756e700a0eeb3b847') in 0.036759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/cemetery halloween set/models/skull_01.fbx
+  artifactKey: Guid(39435e97ca57ba1408fd054be7ce7363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/skull_01.fbx using Guid(39435e97ca57ba1408fd054be7ce7363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5021334e123831828766370851cd84c6') in 0.033408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/cemetery halloween set/models/rock_11.fbx
+  artifactKey: Guid(147e2849b7754844e9afc7bee7e8c1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/rock_11.fbx using Guid(147e2849b7754844e9afc7bee7e8c1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bdf6cf156faf571c1ab4de267061d2') in 0.034900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/cemetery halloween set/models/rock_04.fbx
+  artifactKey: Guid(767cb26abc3ce284897d1ec8a99023fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/rock_04.fbx using Guid(767cb26abc3ce284897d1ec8a99023fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952fdbb5aef6e717ebf01ff367b149ce') in 0.045865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/cemetery halloween set/models/rock_09.fbx
+  artifactKey: Guid(fefbfe09f1bcf814cb5f844c981e7369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/rock_09.fbx using Guid(fefbfe09f1bcf814cb5f844c981e7369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9c306ccd0903dd3c6e585523a02fd8') in 0.031726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/cemetery halloween set/models/rock_10.fbx
+  artifactKey: Guid(b85a73d1ef6903645be5e0ad882c2af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/rock_10.fbx using Guid(b85a73d1ef6903645be5e0ad882c2af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1510dc985cb7c8deda7a17c710a633fe') in 0.043531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/cemetery halloween set/models/rock_07.fbx
+  artifactKey: Guid(e62e6d450c2012c4c8d26fdc7d221f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/rock_07.fbx using Guid(e62e6d450c2012c4c8d26fdc7d221f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c967cdceb88741532ac525cbe9e77d2e') in 0.033242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/cemetery halloween set/models/rock_12.fbx
+  artifactKey: Guid(7d8bf4f6d6882da48a54b61675eef409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/rock_12.fbx using Guid(7d8bf4f6d6882da48a54b61675eef409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b879a792cea6201c0af3ef6b2664a8') in 0.049165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079327 seconds.
+  path: Assets/cemetery halloween set/models/skull_02.fbx
+  artifactKey: Guid(85b9fe69e945acc4381c69f5ff326dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/skull_02.fbx using Guid(85b9fe69e945acc4381c69f5ff326dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2690758ee3ad2ae2c17807119113feb') in 0.039466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/cemetery halloween set/models/spiderweb_03.fbx
+  artifactKey: Guid(0eb0ec8c1682b6f4e8f4ecc4dd48f2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/spiderweb_03.fbx using Guid(0eb0ec8c1682b6f4e8f4ecc4dd48f2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22db45b22726aed88d240ac6c96ed3ee') in 0.035404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/cemetery halloween set/models/zombie_hand_02.fbx
+  artifactKey: Guid(4bacb379a95793f46903e0f45094229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/zombie_hand_02.fbx using Guid(4bacb379a95793f46903e0f45094229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c54a1b40f2cb0a27207d4bd51ab993') in 0.037221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/cemetery halloween set/models/skull_09.fbx
+  artifactKey: Guid(e65822353ae8c9340a402c7b8d1af067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/skull_09.fbx using Guid(e65822353ae8c9340a402c7b8d1af067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e989a70d82e55544aa3ac702a14050c7') in 0.037069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/cemetery halloween set/models/skull_05.fbx
+  artifactKey: Guid(dde2d83f50e4e1e498596af035191d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/skull_05.fbx using Guid(dde2d83f50e4e1e498596af035191d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86730abde2e2733b95b82b6ee42790ac') in 0.041590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/cemetery halloween set/models/skull_08.fbx
+  artifactKey: Guid(0ae16d69b1d565946a7a7d33765ea7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/skull_08.fbx using Guid(0ae16d69b1d565946a7a7d33765ea7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600954ea3cccb63f2d3eb905f6ae2620') in 0.030232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/cemetery halloween set/models/zombie_hand_01.fbx
+  artifactKey: Guid(02b75f581a25d7f4793b53c1ea3a10e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/zombie_hand_01.fbx using Guid(02b75f581a25d7f4793b53c1ea3a10e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66304a6c03ba224288d3b372af769dbd') in 0.041828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/cemetery halloween set/models/Tree02_BG.fbx
+  artifactKey: Guid(95dd1e4fe90316e43a9f0ecab11d671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/Tree02_BG.fbx using Guid(95dd1e4fe90316e43a9f0ecab11d671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062effaf40bf0f3aad1413e8fdace57e') in 0.021117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/cemetery halloween set/models/zombie_hand_06.fbx
+  artifactKey: Guid(3be34e527e005f84486fbb598055b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/zombie_hand_06.fbx using Guid(3be34e527e005f84486fbb598055b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82da8ce81698151cdeb57bc441c1d741') in 0.052801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/cemetery halloween set/models/spiderweb_02.fbx
+  artifactKey: Guid(eb94f0bdb081dc94f9bcc6b60dcaa7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/spiderweb_02.fbx using Guid(eb94f0bdb081dc94f9bcc6b60dcaa7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78d75ebafc73b62c5222cb2bf2641fe') in 0.031467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/cemetery halloween set/models/spiderweb_04.fbx
+  artifactKey: Guid(1bf8baa4c1bb36848a58e36c5cedc146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/spiderweb_04.fbx using Guid(1bf8baa4c1bb36848a58e36c5cedc146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e85766de56c1c50bc68313cc596b49') in 0.040880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/cemetery halloween set/models/skull_04.fbx
+  artifactKey: Guid(18c3f8aa37da94c41ab2b399cd121a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/skull_04.fbx using Guid(18c3f8aa37da94c41ab2b399cd121a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78ddbc382868a84514ca1c4a00c2b64') in 0.038876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/cemetery halloween set/models/spiderweb_01.fbx
+  artifactKey: Guid(b9c220a7f056f454882d8a29a8d68582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/spiderweb_01.fbx using Guid(b9c220a7f056f454882d8a29a8d68582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253e71777328e57e636535c43f30af1f') in 0.044755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/cemetery halloween set/models/zombie_hand_08.fbx
+  artifactKey: Guid(72d25901c70869b42b9a1992fc2e321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/zombie_hand_08.fbx using Guid(72d25901c70869b42b9a1992fc2e321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33c9fd396a63b70699fed37180a9551') in 0.033868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.906831 seconds.
+  path: Assets/sky.mat
+  artifactKey: Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sky.mat using Guid(0c08661f7c96242068aad03fc3cc56b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ebadb98e9c3301928e7236b36b3d5c') in 0.015020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 493.004159 seconds.
+  path: Assets/cemetery halloween set/Demo/sample_scene.FBX
+  artifactKey: Guid(ba37eba8728fa144e8ebab6a89327cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Demo/sample_scene.FBX using Guid(ba37eba8728fa144e8ebab6a89327cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f804ffba9b8ba4435c7e6cc726d872') in 3.572244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.213363 seconds.
+  path: Assets/cemetery halloween set/Prefab/bush_01.prefab
+  artifactKey: Guid(d083143e5ce002340b5a96b02dd521bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/bush_01.prefab using Guid(d083143e5ce002340b5a96b02dd521bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90ab88af23f14727318652a058a07a9') in 0.016877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_04.prefab
+  artifactKey: Guid(1a039573d41de564c82233cf91d21eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_04.prefab using Guid(1a039573d41de564c82233cf91d21eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6387cfe8ac116957d9a679c7bd52e387') in 0.005179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_04.prefab
+  artifactKey: Guid(462caf5e9b6e21d47a0fd752618407ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_04.prefab using Guid(462caf5e9b6e21d47a0fd752618407ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b5865960027cf7215b02d323de6d31') in 0.005313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_tile_03.prefab
+  artifactKey: Guid(1a935fa61d7ee07459af217cce0bb217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_tile_03.prefab using Guid(1a935fa61d7ee07459af217cce0bb217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b2892bbd21906b2f1d4f8e506878f7') in 0.004074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_03.prefab
+  artifactKey: Guid(2788b8c246efe2649911841920cfd809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_03.prefab using Guid(2788b8c246efe2649911841920cfd809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68136747f709085d199c3db9c8bea91') in 0.005306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_tile_05.prefab
+  artifactKey: Guid(af50065cf67981e4aa640f559cdba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_tile_05.prefab using Guid(af50065cf67981e4aa640f559cdba263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54accd7277a2824350ee2d77c6b1754b') in 0.004858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_03.prefab
+  artifactKey: Guid(aed5aa50d2da06a4d989ad965417c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_03.prefab using Guid(aed5aa50d2da06a4d989ad965417c5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e090237e4781db54731a5cbb30b23112') in 0.004848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_10.prefab
+  artifactKey: Guid(d3bd997e128c44941b87aabf13f6866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_10.prefab using Guid(d3bd997e128c44941b87aabf13f6866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57640d0b40d1b0685d557697d5bd476') in 0.004299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_02.prefab
+  artifactKey: Guid(3891be345248e044bb740e0efc180e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_02.prefab using Guid(3891be345248e044bb740e0efc180e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618c0fe96a176b78b8c23dadb0d07c5d') in 0.004078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/cemetery halloween set/Prefab/dead_tree_04.prefab
+  artifactKey: Guid(04251ac4cc9ef904e9b00646dd3b4bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/dead_tree_04.prefab using Guid(04251ac4cc9ef904e9b00646dd3b4bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2614c13c7a682ee4f6f308132cedf9') in 0.005282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_02.prefab
+  artifactKey: Guid(c359d8121ce290d4fa23fd147d65a3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_02.prefab using Guid(c359d8121ce290d4fa23fd147d65a3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89f7903827eb0abe29235103c73b4ba') in 0.005271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_09.prefab
+  artifactKey: Guid(00474b18ee4c2b645aef1d1232934c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_09.prefab using Guid(00474b18ee4c2b645aef1d1232934c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ced77d1bb2131f793fad26cd22551c') in 0.004887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/cemetery halloween set/Prefab/gravestone_07.prefab
+  artifactKey: Guid(9cb717c8378f7294b989570ede15c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/gravestone_07.prefab using Guid(9cb717c8378f7294b989570ede15c8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda4c3d98bbb47079f25a9bab41b39c4') in 0.004755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/cemetery halloween set/Prefab/hang_pumpkin_01.prefab
+  artifactKey: Guid(665d6ab27366b2b4e99a5ccc4523af9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/hang_pumpkin_01.prefab using Guid(665d6ab27366b2b4e99a5ccc4523af9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dbda6d8d09db6f2a708a8098b59055') in 0.005548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/cemetery halloween set/Prefab/dead_tree_03.prefab
+  artifactKey: Guid(baa878f50f65b4f48ac29f443ea4111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/dead_tree_03.prefab using Guid(baa878f50f65b4f48ac29f443ea4111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b89aee2a97f77cb15f1c19058d24d1') in 0.005706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/cemetery halloween set/Prefab/fence_pillar_01.prefab
+  artifactKey: Guid(4a7bdb1844d70e74cb49786452e74f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/Prefab/fence_pillar_01.prefab using Guid(4a7bdb1844d70e74cb49786452e74f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b770257434571362362590c56565ff') in 0.005657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.849099 seconds.
+  path: Assets/cemetery halloween set/models/Materials
+  artifactKey: Guid(e17765cdac36d27459670e19458cd259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/Materials using Guid(e17765cdac36d27459670e19458cd259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4d1c73e485f0551ac6e43661195a00') in 0.022469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.669079 seconds.
+  path: Assets/cemetery halloween set/models/bush_01.FBX
+  artifactKey: Guid(a478d6d92ef5900488f4cc185bbfc98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/bush_01.FBX using Guid(a478d6d92ef5900488f4cc185bbfc98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e810678244d1ecffc2dee1cc83585a') in 0.023985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001102 seconds.
+  path: Assets/cemetery halloween set/models/lava_dead_tree_04.FBX
+  artifactKey: Guid(776bc5f1c6c89854b841fe91a3bd86a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/lava_dead_tree_04.FBX using Guid(776bc5f1c6c89854b841fe91a3bd86a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b326200095a5060a3874d16d4d5a06') in 0.037200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/cemetery halloween set/models/lava_dead_tree_01.FBX
+  artifactKey: Guid(3f2e6295562c91f4ca24f635676b603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/lava_dead_tree_01.FBX using Guid(3f2e6295562c91f4ca24f635676b603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f545ef23409dc50c0b94958877145e') in 0.045369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/cemetery halloween set/models/gravestone_04.fbx
+  artifactKey: Guid(0c6a1b709e81ef54297ce22bcaca285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/gravestone_04.fbx using Guid(0c6a1b709e81ef54297ce22bcaca285d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feef23e97240fb9b4e7185d6acbd67ad') in 0.026152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/cemetery halloween set/models/pumpkin_10.FBX
+  artifactKey: Guid(ca955adc0ee594341b35932e657e6bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_10.FBX using Guid(ca955adc0ee594341b35932e657e6bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8833da65158cc76f1660c0e557563f8') in 0.069020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/cemetery halloween set/models/pumpkin_07.FBX
+  artifactKey: Guid(9a1ff450f10a30d42bbd560ed6446c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_07.FBX using Guid(9a1ff450f10a30d42bbd560ed6446c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b426b0cbe322b9fa9d134841910d6b45') in 0.043923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/cemetery halloween set/models/hang_pumpkin_02.FBX
+  artifactKey: Guid(7bf738d0024710e4bb01a1032ecffb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/hang_pumpkin_02.FBX using Guid(7bf738d0024710e4bb01a1032ecffb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f82e0f1aa30adf276f3bd4cae1feb14') in 0.064470 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000072 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Tombstone_02.fbx
-  artifactKey: Guid(382ced19f20c16d4382fdedbd194fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Tombstone_02.fbx using Guid(382ced19f20c16d4382fdedbd194fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafe1372b1ae9d6b2b080ef37de0d3d7') in 0.033106 seconds 
+  path: Assets/cemetery halloween set/models/pumpkin_04.FBX
+  artifactKey: Guid(9cb5ce8b3328f144984e3f413734c149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_04.FBX using Guid(9cb5ce8b3328f144984e3f413734c149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0c762d3a43df76bf09ee5a83289030') in 0.034883 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/FREE_Cartoon_Halloween_Pack/FBX/Lamp_01.fbx
-  artifactKey: Guid(a838677d75b40ed4d92e38a95d2fc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FREE_Cartoon_Halloween_Pack/FBX/Lamp_01.fbx using Guid(a838677d75b40ed4d92e38a95d2fc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1c2674bb3b0fc62245c45cf4344bda') in 0.026516 seconds 
+  Time since last request: 0.000071 seconds.
+  path: Assets/cemetery halloween set/models/pumpkin_03.FBX
+  artifactKey: Guid(3a49463d7f0827a46b6a7ef4257003fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_03.FBX using Guid(3a49463d7f0827a46b6a7ef4257003fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8d84e3f4d5580f8fdecdd0f4f71806') in 0.017712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/cemetery halloween set/models/pumpkin_08.FBX
+  artifactKey: Guid(31cece0bdb31fff4f8ab279d108b5f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_08.FBX using Guid(31cece0bdb31fff4f8ab279d108b5f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea22bd640722c82dc1b94794703383f') in 0.040227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/cemetery halloween set/models/pumpkin_02.FBX
+  artifactKey: Guid(bb121659b32fb5f488ad53b1fbef5e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/pumpkin_02.FBX using Guid(bb121659b32fb5f488ad53b1fbef5e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc3a6b46874962ae0dbd6f6126b1d45') in 0.031813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/cemetery halloween set/models/dead_tree_05.FBX
+  artifactKey: Guid(e0884eef239d74a4a9328c55745c142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/dead_tree_05.FBX using Guid(e0884eef239d74a4a9328c55745c142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5271ef3be7c89cbef51cbd2a1b71542d') in 0.040194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/cemetery halloween set/models/hang_pumpkin_05.FBX
+  artifactKey: Guid(7aaf8bbf8fb4b4643b1f1f5567ad6b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/hang_pumpkin_05.FBX using Guid(7aaf8bbf8fb4b4643b1f1f5567ad6b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b13e11d8f59a395181b6597158c38c3') in 0.049735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/cemetery halloween set/models/lava_dead_tree_03.FBX
+  artifactKey: Guid(45a1b1d44ce637342a128c904ec6371a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/lava_dead_tree_03.FBX using Guid(45a1b1d44ce637342a128c904ec6371a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbc9880d194482ee15638521b31116a') in 0.063986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/cemetery halloween set/models/fence_tile_02.fbx
+  artifactKey: Guid(10e9fffa3bb95334e8a305d18adca0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cemetery halloween set/models/fence_tile_02.fbx using Guid(10e9fffa3bb95334e8a305d18adca0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4147730762efb42cc9fee3d5ec244997') in 0.034595 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002551 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/graceho/UCSC/classes/CMPM121/graveyardscene/graveyard/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1300ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1001ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (410ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (73.5 KB). Loaded Objects now: 3923.
+Memory consumption went from 313.3 MB to 313.2 MB.
+Total: 3.751362 ms (FindLiveObjects: 0.297444 ms CreateObjectMapping: 0.185276 ms MarkObjects: 3.118192 ms  DeleteObjects: 0.149743 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 296.852913 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/_Prefabs/Cauldron_01.prefab
+  artifactKey: Guid(1795059418cbe984a9f659ea409db85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/_Prefabs/Cauldron_01.prefab using Guid(1795059418cbe984a9f659ea409db85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216ba00358ac5b246b2b4c780b0fa8c9') in 0.098835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/_Prefabs/WitchBroom_01.prefab
+  artifactKey: Guid(8ace1a40dd5b7734282c06470dee5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/_Prefabs/WitchBroom_01.prefab using Guid(8ace1a40dd5b7734282c06470dee5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a52ee77ed2c8c3b5afd013446550808') in 0.015350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/_Prefabs/Lamp_03.prefab
+  artifactKey: Guid(6691b02975f55b1479597e6ac2f07bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/_Prefabs/Lamp_03.prefab using Guid(6691b02975f55b1479597e6ac2f07bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9560960f8c62ebbe2f18da89280610') in 0.013858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/_Prefabs/Pumpkin_01.prefab
+  artifactKey: Guid(44fe268b4fc78844a9bc14a96a4d088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/_Prefabs/Pumpkin_01.prefab using Guid(44fe268b4fc78844a9bc14a96a4d088d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6017e09ec5ccfd76fb4a5f4ab73319d') in 0.038178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/_Prefabs/Pumpkin_02.prefab
+  artifactKey: Guid(1bc636ff02c622f439cf73b4f0aa9cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/_Prefabs/Pumpkin_02.prefab using Guid(1bc636ff02c622f439cf73b4f0aa9cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e96072bbc3321273a717858c042d9c') in 0.014342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.673261 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/FBX/Cauldron_01.fbx
+  artifactKey: Guid(bfd8050d9a207f646a71e823c296d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/FBX/Cauldron_01.fbx using Guid(bfd8050d9a207f646a71e823c296d984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3db6d87f444b05b2e0cbf29b5fc7ddd') in 0.033684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/FBX/WitchBroom_01.fbx
+  artifactKey: Guid(57e9785ae80b6904298145f7fddc5d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/FBX/WitchBroom_01.fbx using Guid(57e9785ae80b6904298145f7fddc5d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27998c72b1f3be3ca625aaf62306c6df') in 0.025859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/FBX/Pumpkin_01.fbx
+  artifactKey: Guid(64c8fa4b48f26b04bacdc4774a4dfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/FBX/Pumpkin_01.fbx using Guid(64c8fa4b48f26b04bacdc4774a4dfc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5125658469d315481ec3c36b84a29eef') in 0.023379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/FBX/Fence.fbx
+  artifactKey: Guid(a7a58b64dea011e468f54bbaaf84ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/FBX/Fence.fbx using Guid(a7a58b64dea011e468f54bbaaf84ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74723e37bb7c7742ba32a07cf75a43a') in 0.026383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/FBX/Lamp_03.fbx
+  artifactKey: Guid(4bc5ff3961e887c49a7a0b1d82655002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/FBX/Lamp_03.fbx using Guid(4bc5ff3961e887c49a7a0b1d82655002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab876937e94d34eb80b8605d628ec97c') in 0.021925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/FBX/Tombstone_02.fbx
+  artifactKey: Guid(382ced19f20c16d4382fdedbd194fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/FBX/Tombstone_02.fbx using Guid(382ced19f20c16d4382fdedbd194fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a44e924f87cc4d0737d7c250d0cd20') in 0.024259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.151382 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/FBX/Materials/Halloween_Props.mat
+  artifactKey: Guid(f372f38a1f7071645b2b64005e2380b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/FBX/Materials/Halloween_Props.mat using Guid(f372f38a1f7071645b2b64005e2380b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad537fefe2daaa3e4f9e51a309d4b759') in 0.034825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.086499 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/_Prefabs/Lamp_02.prefab
+  artifactKey: Guid(d7c4a1eaebbfe2647a4f25b1adde5211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/_Prefabs/Lamp_02.prefab using Guid(d7c4a1eaebbfe2647a4f25b1adde5211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1eb2e5f5bfd26e829a9ee4c6a0983f9') in 0.006805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.718524 seconds.
+  path: Assets/FREE Cartoon Halloween Pack/Materials/Ground.mat
+  artifactKey: Guid(89726b83d2e3c22418ba8751edbcfee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Cartoon Halloween Pack/Materials/Ground.mat using Guid(89726b83d2e3c22418ba8751edbcfee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec3442d66b275c6f2d886a63f15ab4c') in 0.012574 seconds 

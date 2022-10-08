@@ -1,0 +1,2 @@
+Temp/ScriptUpdater/325267976/1198848379_lb_BirdController.cs => Assets/living birds/scripts/lb_BirdController.cs
+Temp/ScriptUpdater/325267976/1559740715_lb_Bird.cs => Assets/living birds/scripts/lb_Bird.cs
