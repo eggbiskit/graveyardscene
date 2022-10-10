@@ -1,16 +1,17 @@
-# graveyardscene
 CMPM121 Game Technologies - HW 1
 
 **Description**
-In the spirit of Halloween I wanted to make a spooky graveyard with a crow character. I included some dead trees and tombstones, along with some lamps and pumpkins.
+In the spirit of Halloween I wanted to make a spooky graveyard with a crow character. I included some dead trees and tombstones, along with some lamps and pumpkins. I used fences to make a separate, "secret" part of the graveyard to make it more fun to explore. I found and used 24 unique objects in total.
+
+*Press 1/2/3/4 for first/third/ortho/moving perspectives.*
 
 **3D models used**
 [FREE Cartoon Halloween Pack - Mobile/VR](https://assetstore.unity.com/packages/3d/environments/fantasy/free-cartoon-halloween-pack-mobile-vr-45896)
 
-- Lamp_02 (2)
+- Lamp_02 (4)
 - Lamp_03 (2)
 - WitchBroom_01
-- Grass_D (floor)
+- Grass_D (floor, 1)
 - Moonshine (skybox)
 
 [Halloween Cemetery Set](https://assetstore.unity.com/packages/3d/environments/fantasy/halloween-cemetery-set-19125)
@@ -25,8 +26,8 @@ In the spirit of Halloween I wanted to make a spooky graveyard with a crow chara
 - fence_tile_01, 02
 - tomb
 - skull_01
-- ground (dirt mound)
-- demo_scene_floor (walls)
+- ground (dirt mound, 3)
+- demo_scene_floor (walls, 2)
 
 [Living Birds](https://assetstore.unity.com/packages/3d/characters/animals/birds/living-birds-15649)
 

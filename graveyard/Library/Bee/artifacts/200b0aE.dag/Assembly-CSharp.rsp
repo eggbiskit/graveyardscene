@@ -351,10 +351,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Living Birds/demo/livingBirdsDemoScript.cs"
-"Assets/Living Birds/scripts/lb_Bird.cs"
-"Assets/Living Birds/scripts/lb_BirdController.cs"
-"Assets/Living Birds/scripts/lb_CrowProximity.cs"
+"Assets/switchCamera.cs"
 -langversion:9.0
 
 /deterministic
