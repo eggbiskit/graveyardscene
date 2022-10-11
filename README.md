@@ -1,14 +1,14 @@
 CMPM121 Game Technologies - HW 1
 
-**Description**
-In the spirit of Halloween, I wanted to make a spooky graveyard with a crow character. I included some dead trees and tombstones, along with some lamps and pumpkins.
+**Description**  
+In the spirit of Halloween, I wanted to make a spooky graveyard with a crow character. I included some dead trees and tombstones, along with some lamps and pumpkins.  
 I found and used 24 unique objects in total.
 
-**How to Play**
-*Press 1/2/3/4 for first/third/ortho/moving perspectives or use the button.*
+**How to Play**  
+*Press 1/2/3/4 for first/third/ortho/moving perspectives or use the button.*  
 *Use arrow keys or WASD to move around.*
 
-**3D models used**
+**3D models used**  
 [FREE Cartoon Halloween Pack - Mobile/VR](https://assetstore.unity.com/packages/3d/environments/fantasy/free-cartoon-halloween-pack-mobile-vr-45896)
 
 - Lamp_02 (4)
