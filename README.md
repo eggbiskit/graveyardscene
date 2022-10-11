@@ -1,7 +1,8 @@
 CMPM121 Game Technologies - HW 1
 
 **Description**
-In the spirit of Halloween I wanted to make a spooky graveyard with a crow character. I included some dead trees and tombstones, along with some lamps and pumpkins. I used fences to make a separate, "secret" part of the graveyard to make it more fun to explore. I found and used 24 unique objects in total.
+In the spirit of Halloween, I wanted to make a spooky graveyard with a crow character. I included some dead trees and tombstones, along with some lamps and pumpkins.
+I found and used 24 unique objects in total.
 
 *Press 1/2/3/4 for first/third/ortho/moving perspectives.*
 
@@ -19,7 +20,7 @@ In the spirit of Halloween I wanted to make a spooky graveyard with a crow chara
 - spiderweb_04 (2)
 - zombie_hand_04
 - pumpkin_02, 03, 04, 05, 08
-- dead_tree_03 (2)
+- dead_tree_03 (3)
 - dead_tree_05
 - bush_01, 02, 03 (2)
 - gravestone_01, 03, 04
