@@ -1,4 +1,6 @@
-CMPM121 Game Technologies - HW 1
+CMPM121 Game Technologies - HW 1  
+
+![alt text](https://github.com/eggbiskit/graveyardscene/blob/master/hw1.gif)  
 
 **Description**  
 In the spirit of Halloween, I wanted to make a spooky graveyard with a crow character. I included some dead trees and tombstones, along with some lamps and pumpkins.  
